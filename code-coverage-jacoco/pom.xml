@@ -4,7 +4,7 @@
     <groupId>net.petrikainulainen.maven</groupId>
     <artifactId>code-coverage-jacoco</artifactId>
     <packaging>jar</packaging>
-    <version>0.1</version>
+    <version>0.8.1</version>
     <name>Code Coverage with Jacoco</name>
     <description>
         This example application demonstrates how you can create code coverage
@@ -21,7 +21,7 @@
         <build.profile.id>dev</build.profile.id>
         <jacoco.it.execution.data.file>${project.build.directory}/coverage-reports/jacoco-it.exec</jacoco.it.execution.data.file>
         <jacoco.ut.execution.data.file>${project.build.directory}/coverage-reports/jacoco-ut.exec</jacoco.ut.execution.data.file>
-        <jdk.version>1.7</jdk.version>
+        <jdk.version>1.8</jdk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- Only unit tests are run by default. -->
         <skip.integration.tests>true</skip.integration.tests>
